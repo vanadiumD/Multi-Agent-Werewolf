@@ -21,7 +21,9 @@
    DEEPSEEK_API_KEY=your_api_key_here
    # 其他模型API密钥...
    ```
-2. 修改`llm_configs.json`配置模型参数（可选）
+   api的名称应该和加入模型的名称的完全大写一致，比如模型是deepseek, .evn文件需要写：
+   DEEPSEEK_API_KEY=sk-2222222
+3. 修改`llm_configs.json`配置模型参数（可选）
 
 ## 运行游戏
 ```bash
@@ -37,4 +39,5 @@ python main.py
   - 狼人：淘汰所有村民
   - 村民：淘汰所有狼人
   - 小丑：被投票出局
+
 
